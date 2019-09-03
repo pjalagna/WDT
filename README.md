@@ -5,8 +5,7 @@ called "weed" WDT is a watch-dog-timer system
 </br> format:
 </br> wdt.init()
 </br><pre>    </pre> begins wdt agent
-</br> wdt.genix()</br>>id
-</br><pre>    </pre> generates an id
+</br> wdt.genix()  --} generates an id
 </br> wdt.set(id,seconds,process)
 </br><pre>    </pre> sets a timer to go off in <bold>seconds</bold> and on explosion to run a bpx process named <bold>process</bold>.
 </br> wdt.process(process)
